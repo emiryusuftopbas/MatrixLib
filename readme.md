@@ -72,6 +72,7 @@ There are 2 functions to adding rows and columns;
 ```
 Matrix will look like:
 ![enter image description here](https://i.ibb.co/47RkN7D/Annotation-2019-11-24-203554.png)
+
 ***Adding as columns***
 *AddAssColumn(int index, double [] arr)*
 ```csharp
@@ -99,7 +100,7 @@ Output is :
 ![enter image description here](https://i.ibb.co/Ns591vQ/Annotation-2019-11-24-204104.png)
 
 ## Displaying matrices
-There are ToString() method for displaying matrices.
+There are ToString() method to display matrices.
 ```csharp
 Matrix matrix = new Matrix("[12 6 3;15 56 88;55 32 18]");
 Console.WriteLine(matrix.ToString());
@@ -108,7 +109,7 @@ Output is:
 ![enter image description here](https://i.ibb.co/PmP3byR/Annotation-2019-11-24-204104.png)
 
 ## Getting and setting matrix elements
-We can get and set matrix elements using indexer.
+We can get and set matrix elements by using indexer.
 
 Getting matrix element
 
