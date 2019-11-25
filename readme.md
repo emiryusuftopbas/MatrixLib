@@ -33,6 +33,7 @@ After doing that we can add rows and columns. Adding rows and columns will be ex
 ```
 Created matrix will look like:
 ![enter image description here](https://i.ibb.co/H7t95B7/Annotation-2019-11-24-173412.png)
+
 You have to type ';' semicolon after row.
 You have to type space after element.
 Typing unnecessary spaces causes error.
