@@ -1,0 +1,4 @@
+C:\Users\Emir\Documents\Visual Studio 2017\Projects\MatrixLib\MatrixLib\bin\Debug\MatrixLib.dll
+C:\Users\Emir\Documents\Visual Studio 2017\Projects\MatrixLib\MatrixLib\bin\Debug\MatrixLib.pdb
+C:\Users\Emir\Documents\Visual Studio 2017\Projects\MatrixLib\MatrixLib\obj\Debug\MatrixLib.dll
+C:\Users\Emir\Documents\Visual Studio 2017\Projects\MatrixLib\MatrixLib\obj\Debug\MatrixLib.pdb
