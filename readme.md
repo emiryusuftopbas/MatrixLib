@@ -6,16 +6,16 @@ You need to download the dll , or you can build the dll from the source code.
 
  - Create a project 
  - Open solution explorer menu
- ![Add reference](https://i.ibb.co/y4XJZFK/Annotation-2019-11-24-170306.png)
+ ![Add reference](https://user-images.githubusercontent.com/58172827/76756158-3f1f6980-6796-11ea-84b7-ddd2127e99b4.png)
  - Right click on references and click *Add Reference*
- -![Reference Manager](https://i.ibb.co/Tqg3NdJ/Annotation-2019-11-24-170444.png)
+ -![Reference Manager](https://user-images.githubusercontent.com/58172827/76756231-64ac7300-6796-11ea-9887-e102eece8819.png)
  - Click *Browse*
-![Select the files to reference](https://i.ibb.co/PzzSpkc/Annotation-2019-11-24-170600.png)
+![Select the files to reference](https://user-images.githubusercontent.com/58172827/76756312-7f7ee780-6796-11ea-9156-e3c879de62d8.png)
  - Select **MatrixLib.dll** and click *Add*
- ![enter image description here](https://i.ibb.co/rtj1Jpb/Annotation-2019-11-24-170655.png)
+ ![enter image description here](https://user-images.githubusercontent.com/58172827/76756371-98879880-6796-11ea-9b0a-52177fc729a2.png)
  - We have successfully added the library .
  - Don't forget the include the library.
- - ![enter image description here](https://i.ibb.co/GR90WGW/Annotation-2019-11-24-171947.png)
+ - ![import matrixlib](https://user-images.githubusercontent.com/58172827/76756411-ac32ff00-6796-11ea-8688-ac695338581b.png)
  - Now we are ready to use the library
 
 ## Create matrix
@@ -32,7 +32,7 @@ After doing that we can add rows and columns. Adding rows and columns will be ex
    Matrix matrix = new Matrix("[12 6 3;15 56 88;55 32 18]");
 ```
 Created matrix will look like:
-![enter image description here](https://i.ibb.co/H7t95B7/Annotation-2019-11-24-173412.png)
+![enter image description here](https://user-images.githubusercontent.com/58172827/76756497-da184380-6796-11ea-8fb2-9cd84e65f248.png)
 
 You have to type ';' semicolon after row.
 You have to type space after element.
@@ -51,7 +51,7 @@ You can catch it :)
     
 ```
 Created matrix will look like:
-![enter image description here](https://i.ibb.co/txzfss7/Annotation-2019-11-24-173412.png)
+![enter image description here](https://user-images.githubusercontent.com/58172827/76756562-f916d580-6796-11ea-880a-3785b4226b7b.png)
 
 ## Adding rows and columns
 
@@ -71,7 +71,7 @@ There are 2 functions to adding rows and columns;
     
 ```
 Matrix will look like:
-![enter image description here](https://i.ibb.co/47RkN7D/Annotation-2019-11-24-203554.png)
+![enter image description here](https://user-images.githubusercontent.com/58172827/76756645-2a8fa100-6797-11ea-96e3-19414d14425f.png)
 
 ***Adding as columns***
 *AddAssColumn(int index, double [] arr)*
@@ -86,7 +86,7 @@ Matrix will look like:
     
 ```
 Matrix will look like:
-![enter image description here](https://i.ibb.co/0qyQ1dv/Annotation-2019-11-24-204104.png)
+![enter image description here](https://user-images.githubusercontent.com/58172827/76756702-45621580-6797-11ea-8763-0a05a691402d.png)
 
 ## Matrix row length and column length
 You may want to get row length and column length of the matrix.
@@ -97,7 +97,7 @@ Console.WriteLine("Row length of the matrix is = " + matrix.RowLength);
 Console.WriteLine("Column length of the matrix is = " + matrix.ColLength);  
 ```
 Output is : 
-![enter image description here](https://i.ibb.co/Ns591vQ/Annotation-2019-11-24-204104.png)
+![enter image description here](https://user-images.githubusercontent.com/58172827/76756758-5f9bf380-6797-11ea-9e54-9c30eea3ef8b.png)
 
 ## Displaying matrices
 There are ToString() method to display matrices.
@@ -106,7 +106,7 @@ Matrix matrix = new Matrix("[12 6 3;15 56 88;55 32 18]");
 Console.WriteLine(matrix.ToString());
 ```
 Output is:
-![enter image description here](https://i.ibb.co/PmP3byR/Annotation-2019-11-24-204104.png)
+![enter image description here](https://user-images.githubusercontent.com/58172827/76756801-78a4a480-6797-11ea-998c-ca24075747d5.png)
 
 ## Getting and setting matrix elements
 We can get and set matrix elements by using indexer.
@@ -138,7 +138,7 @@ Console.WriteLine(m3.ToString());
 if the row and column lengths of the matrices are not equal this will throw **MatrixAdditionException**
 
 Output is:
-![enter image description here](https://i.ibb.co/PcGBcHL/Annotation-2019-11-24-212147.png)
+![enter image description here](https://user-images.githubusercontent.com/58172827/76756855-970aa000-6797-11ea-8334-efeda21679b8.png)
 ### Subtraction
 ```csharp
 Matrix m1 = new Matrix("[12 6 3;15 56 88;55 32 18]");
@@ -148,7 +148,7 @@ Console.WriteLine(m3.ToString());
 ```
 if the row and column lengths of the matrices are not equal this will throw **MatrixSubtractionException**
 Output is:
-![enter image description here](https://i.ibb.co/qFqsYqy/Annotation-2019-11-24-212147.png)
+![enter image description here](https://user-images.githubusercontent.com/58172827/76756921-b43f6e80-6797-11ea-894b-b058cf886354.png)
 ### Multiplication
 ```csharp
 Matrix m1 = new Matrix("[1 2;2 0;3 1]");
@@ -158,7 +158,7 @@ Console.WriteLine(m3.ToString());
 ```
 if the number of columns of the first matrix is ​​not equal to the number of rows of the second matrix this will throw **MatrixMultiplicationException**
 Output is :
-![enter image description here](https://i.ibb.co/QcV7PPd/Annotation-2019-11-24-212147.png)
+![enter image description here](https://user-images.githubusercontent.com/58172827/76757013-db963b80-6797-11ea-8977-fd666616b473.png)
 #### Multiplication matrix with scalar number
 ```csharp
    Matrix m1 = new Matrix("[1 2;2 0;3 1]");
@@ -166,7 +166,7 @@ Output is :
    Console.WriteLine(m3.ToString());
 ```
 Output is:
-![enter image description here](https://i.ibb.co/7SWkVyn/Annotation-2019-11-24-212147.png)
+![enter image description here](https://user-images.githubusercontent.com/58172827/76757052-f5378300-6797-11ea-80b5-f122ed1b4014.png)
 
 ## Transpose of the matrix
 
@@ -177,7 +177,7 @@ You can easily get the transpose of the matrix using Transpose(); method.
    Console.WriteLine(m2.ToString());
 ```
 Output is :
-![enter image description here](https://i.ibb.co/XYzyj36/Annotation-2019-11-24-221247.png)
+![enter image description here](https://user-images.githubusercontent.com/58172827/76757241-50697580-6798-11ea-9552-4b80039a999e.png)
 ## Determinant of the matrix
 There is Det(); method for calculate determinant.
 ```csharp
